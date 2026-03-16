@@ -10,6 +10,7 @@ Welcome to my collection of Google Colab notebooks for various AI tools. This re
 
 | Notebook Name | Description | Link | Video Tutorial |
 | :--- | :--- | :--- | :--- |
+| **LTX-2.3 22B Distilled (Kaggle)** | Powerful video generation on Kaggle P100 GPU. Featuring Wan2GP engine + mmgp Profile 4. | [<img src="https://img.shields.io/badge/Kaggle-Notebook-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" height="28" alt="Open In Kaggle"/>](https://github.com/TeamAIQ/Colab-notebooks/blob/main/kaggle_notebooks/ltx_2_3_22b_kaggle_p100_by_aiquest.ipynb) | [![Coming Soon](https://img.shields.io/badge/Video-Coming_Soon-orange?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@AIQuestAcademy) |
 | **SoulX FlashHead (Lite & Pro)** | Audio-Driven AI Talking Head Generator. Features fast Lite & high-quality Pro models. | [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="28" alt="Open In Colab"/>](https://colab.research.google.com/github/TeamAIQ/Colab-notebooks/blob/main/notebooks/SoulX_FlashHead_by_AIQUEST.ipynb) | [![Video Tutorial](https://img.shields.io/badge/Video-Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/1lO6jVo3F_s) |
 | **ACE-Step 1.5 Music Generator (Custom UI)** | Custom UI Edition for ACE-Step 1.5. Built-in examples & formatting. Optimized for Free T4. | [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="28" alt="Open In Colab"/>](https://colab.research.google.com/github/TeamAIQ/Colab-notebooks/blob/main/notebooks/ACE_Step_1_5_Music_Generator_CustomUI_by_AIQUEST.ipynb) | [![Video Tutorial](https://img.shields.io/badge/Video-Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/9bhpSSPdMLM) |
 | **ACE-Step 1.5 Music Generator (LoRA Training)** | LoRA Training Edition for ACE-Step 1.5. Full Gradio Interface & Model Management. | [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="28" alt="Open In Colab"/>](https://colab.research.google.com/github/TeamAIQ/Colab-notebooks/blob/main/notebooks/ACE_Step_1_5_Music_Generator_LoRA_Training_by_AIQUEST.ipynb) | [![Video Tutorial](https://img.shields.io/badge/Video-Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/9bhpSSPdMLM) |
@@ -19,10 +20,11 @@ Welcome to my collection of Google Colab notebooks for various AI tools. This re
 
 ## How to use
 
-1. Click the "Open in Colab" badge next to the notebook you want to use.
-2. This will open the notebook in Google Colab.
-3. Make sure to connect to a runtime (GPU is usually recommended for AI tasks) by going to **Runtime -> Change runtime type**.
-4. Run the cells in order.
+1. Click the "Open in Colab" or "Kaggle" badge next to the notebook you want to use.
+2. This will open the notebook in Google Colab or Kaggle.
+3. For Colab: Connect to a GPU runtime (**Runtime -> Change runtime type -> T4 GPU**).
+4. For Kaggle: Set **Settings -> Accelerator -> GPU P100 x1** and turn on **Internet**.
+5. Run the cells in order.
 
 ## Contributing
 
